@@ -1,0 +1,133 @@
+/* Section Wrapper */
+.wrapper {
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Container */
+.container {
+  padding: 4rem 0; /* Adjust padding as needed */
+}
+
+
+.small-icon {
+  width: 60px; /* Ajustez la valeur en pixels selon vos besoins */
+  height: 60px;
+}
+/* Section Title */
+h2.fs-15{
+  font-size: 21px !important;
+  text-transform: uppercase;
+  color: #007bff;
+  margin-bottom: 1rem;
+}.sub-menu {
+  display: none; /* Initially hidden */
+}
+
+.nav-item:hover .sub-menu {
+  display: block; /* Show on hover */
+}
+p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+/* Service Circle */
+.service-circle {
+  width: 18rem; /* Adjust width as needed */
+  height: 18rem;
+  border-radius: 50%;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  text-align: center;
+}
+
+.service-circle .icon {
+  font-size: 2.5rem; /* Adjust icon size as needed */
+  color: #007bff; /* Blue color */
+}
+
+.service-circle h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.service-circle p {
+  font-size: 0.875rem;
+  color: #151617;
+  margin-bottom: 1.5rem;
+}
+
+.learn-more {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color:  #C8DFFD;
+  text-decoration: none;
+}
+
+/* Responsive Design (Optional) */
+@media (max-width: 768px) {
+  .service-circle {
+      width: 15rem;
+      height: 15rem;
+  }
+}
+.nav-link{font-size: 16px ;
+  color: #696969;
+}
+/* General Styles */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.header-image {
+  max-width: 400px;
+  height: auto;
+}
+
+/* Navigation Bar Styles */
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Main Content Styles */
+.main-content {
+  text-align: center;
+}
+
+.main-content p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-outline-primary {
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+
+
+
+
